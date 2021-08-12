@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+ <head>
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+ </head>
+ <body>
+  <div class="regform"><h1><marquee>Registration form</marquee></h1></div>
+  <div class="main">
+   <form action="connect.php" method="POST">
+   <div id="name">
+    <h2 class="name">Name</h2>
+    <input class="firstname" type="text" name="firstname" required><br>
+    <label class="firstlabel">first name</label>
+    <input class="lastname" type="text" name="lastname" required>
+    <label class="lastlabel">last name</label>
+  </div>
+ <h2 class="name">Company</h2>
+ <input class="company" type="text" name="company" required>
+
+<h2 class="name">Email</h2>
+<input class="email" type="text" name="email" required>
+
+<h2 class="name">Phone</h2>
+<input class="code" type="text" name="areacode" required>
+<label class="area-code">Area code</label>
+<input class="number" type="text" name="phone" required>
+<label class="phone-number">Phone Number</label>
+
+<h2 class="name">Subject</h2>
+<select class="option" name="subject" required>
+<option disabled="disabled" selected="selected">--Choose Option</option>
+<option> Subject1</option>
+<option> Subject2</option>
+<option> Subject3</option>
+
+</select>
+
+
+<button type="submit" name="form">Register</button>
+
+
+   </form>
+ <body>
+</html>
